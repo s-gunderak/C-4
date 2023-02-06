@@ -9,9 +9,13 @@ Console.WriteLine($"Произведение чисел от 1 до {num} рав
 int GetProductNums(int number)
 {
     int product = 1;
-    for (int i = 1; i <= number; i++)
+    // for (int i = 1; i <= number; i++)
+    // {
+    //     product *= i;
+    // }
+    while (num >= 1)
     {
-        product *= i;
+        product *= num--;
     }
     return product;
 }
